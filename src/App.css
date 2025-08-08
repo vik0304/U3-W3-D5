@@ -213,3 +213,8 @@
 .pointer:hover {
   cursor: pointer;
 }
+
+.explicit {
+  color: #ababab;
+  font-size: 0.9em;
+}

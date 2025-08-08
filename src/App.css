@@ -6,10 +6,6 @@
   color: #da5160;
 }
 
-.sideMenu {
-  background-color: #252526;
-}
-
 .sideMenuButtons {
   color: white;
 }
@@ -42,12 +38,72 @@
   opacity: 1;
 }
 
-/* .logoMusic {
-  fill: white;
-} */
-
 .mediaBarBg {
   background-color: #2c2c2c;
+  height: 70px;
+}
+
+.mediaBarBoxBg {
+  background-color: #4d4d4d;
+}
+
+.mediaBarControls {
+  color: #626262;
+  font-size: 1.3em;
+}
+
+.playButton {
+  font-size: 2.5em;
+}
+
+.volumeBar {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+/* Barra track */
+.volumeBar::-webkit-slider-runnable-track {
+  height: 5px;
+  background: #4b4b4b;
+  border-radius: 4px;
+}
+
+.volumeBar::-moz-range-track {
+  height: 5px;
+  background: #4b4b4b;
+  border-radius: 4px;
+}
+
+/* Pallino thumb */
+.volumeBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* per centrare il pallino sulla barra */
+}
+
+.volumeBar::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btnRed {
+  background-color: #d60017;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.flex-basis-0 {
+  flex-basis: 0;
 }
 
 .scroll-x {

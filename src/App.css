@@ -6,6 +6,10 @@
   color: #da5160;
 }
 
+.navbarIcon {
+  font-size: 1.5em;
+}
+
 .sideMenuButtons {
   color: white;
 }
@@ -36,6 +40,21 @@
 .form-control.inputStyle::placeholder {
   color: #97979b;
   opacity: 1;
+}
+
+.logo {
+  height: 2.3em;
+  filter: brightness(0) invert(1);
+}
+
+.logoSidebar {
+  height: 1.5em;
+  filter: brightness(0) invert(1);
+}
+
+.logoNavbar {
+  height: 1.2em;
+  filter: brightness(0) invert(1);
 }
 
 .mediaBarBg {
@@ -133,14 +152,14 @@
   display: none;
 }
 
-.newsThumbnail {
-  width: 315px;
-  height: auto;
+.scroll-x > div {
+  flex: 0 0 65%;
+  width: 65%;
 }
 
-.scroll-x > div {
-  flex: 0 0 auto;
-  width: 315px;
+.newsThumbnail {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 992px) {

@@ -1,4 +1,5 @@
-import Container from "react-bootstrap/Container";
+import { Container } from "react-bootstrap";
+import { List } from "react-bootstrap-icons";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -9,12 +10,16 @@ function MyNavbar() {
         <Container>
           <Nav>
             <Nav.Link href="#" className="navbarLinks">
-              Accedi
+              <List className="navbarIcon" />
             </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link className="p-0" href="#">
-              <img src="/music.svg" alt="Apple Music Logo" />
+              <img
+                src="/music.svg"
+                alt="Apple Music Logo"
+                className="logoNavbar"
+              />
             </Nav.Link>
           </Nav>
           <Nav>

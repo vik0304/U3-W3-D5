@@ -19,7 +19,7 @@ const Mediabar = () => {
         <Repeat className="mediaBarControls mx-1" />
       </div>
       <div className="mediaBarBoxBg d-flex justify-content-center align-items-center rounded-3 flex-grow-1 flex-basis-0">
-        <img src="/apple.svg" alt="Apple logo" />
+        <img src="/apple.svg" className="logo" alt="Apple logo" />
       </div>
       <div className="flex-grow-1 flex-basis-0 d-flex justify-content-evenly align-items-center">
         <div className="d-flex justify-content-center align-items-center flex-grow-1">

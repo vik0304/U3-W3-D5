@@ -27,7 +27,6 @@
     padding: 0;
     scrollbar-width: thin;
     scrollbar-color: #2e2e2e transparent;
-    box-sizing: border-box;
   }
   .main-content-col::-webkit-scrollbar {
     width: 8px;

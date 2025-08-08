@@ -13,7 +13,11 @@ const SideMenu = () => {
 
   return (
     <Container className="border-end border-secondary sideMenu py-3 h-100">
-      <img src="/music.svg" alt="Apple Music Logo" className="mb-4" />
+      <img
+        src="/music.svg"
+        alt="Apple Music Logo"
+        className="mb-4 logoSidebar"
+      />
       <Form
         onSubmit={(e) => {
           dispatch(handleSubmit(e, query));
